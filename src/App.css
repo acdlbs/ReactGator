@@ -1,9 +1,20 @@
 .App {
+  align-content: center;
   text-align: center;
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(45deg, #0f2027, #2c5364) !important;
 }
 
 .App-logo {
   height: 40vmin;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3%;
 }
 
 .App-header {
