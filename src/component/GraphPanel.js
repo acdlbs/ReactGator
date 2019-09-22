@@ -10,7 +10,6 @@ var dataStyle = {
 var chartStyle = {
   //float: "left"
 };
-var cardStyle = {};
 export default class GraphPanel extends Component {
   render() {
     return (

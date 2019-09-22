@@ -7,7 +7,6 @@ var canvasStyle = {
 };
 export default class Graph extends Component {
   componentDidMount() {
-    const canvas = this.refs.canvas;
     var ctx = document.getElementById("myChart").getContext("2d");
     var charts = [
       {

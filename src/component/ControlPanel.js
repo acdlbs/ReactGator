@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { CardPanel } from "react-materialize";
 
 export default class ControlPanel extends Component {
   render() {
