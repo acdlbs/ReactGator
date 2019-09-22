@@ -14,7 +14,10 @@ var cardStyle = {};
 export default class GraphPanel extends Component {
   render() {
     return (
-      <CardPanel className="card-panel blue-grey heightgraph" style={cardStyle}>
+      <CardPanel
+        className="card-panel blue-grey heightgraph"
+        style={{ height: "308px" }}
+      >
         <div>
           <Row>
             <span>
