@@ -26,8 +26,8 @@ export default class GraphPanel extends Component {
                 </div>
               </Col>
               <Col>
-                <div style={dataStyle}>
-                  <table className="centered mt">
+                <table>
+                  <tbody className="centered mt" style={dataStyle}>
                     <tr>
                       <td id="timePassed">Time passed (s)</td>
                       <td>00</td>
@@ -46,8 +46,8 @@ export default class GraphPanel extends Component {
                       <td>Position (m)</td>
                       <td id="position">00 of 0000m</td>
                     </tr>
-                  </table>
-                </div>
+                  </tbody>
+                </table>
               </Col>
             </span>
           </Row>
